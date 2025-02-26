@@ -102,7 +102,7 @@ let texttwo = document.querySelector('.texttwo').querySelector('h1');
 let textthree = document.querySelector('.textthree').querySelector('h1');
 
 setTimeout(function () {
-    textone.innerHTML = '整片星空为你一人闪烁';
+    textone.innerHTML = 'The whole starry sky shines for you alone';
     textone.style.color = '#E8F9FD';
     textone.style.fontFamily = '楷体'
     texttwo.style.color = '#E8F9FD';
@@ -114,7 +114,7 @@ setTimeout(function () {
 setTimeout(function () {
     textone.innerHTML = '平安快乐';
     texttwo.innerHTML = '万事如意';
-    textthree.innerHTML = '考试顺利！';
+    textthree.innerHTML = '考试顺利';
 }, 112500)
 
 document.addEventListener('click', function () {
